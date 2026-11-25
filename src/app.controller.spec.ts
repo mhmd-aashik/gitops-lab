@@ -15,8 +15,8 @@ describe('AppController', () => {
   });
 
   describe('root', () => {
-    it('should return "Hello World!"', () => {
-      expect(appController.getHello()).toBe('Hello World!');
+    it('should return "V3 - Incorrect application response!"', () => {
+      expect(appController.getHello()).toBe('V3 - Incorrect application response!');
     });
   });
 });
